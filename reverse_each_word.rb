@@ -1,7 +1,6 @@
 def reverse_string(string)
-  new array = []
-  %w(string).each do
-    |s| new array << s.reverse
-  end 
+  new_array = []
+  %w(string).each { |s| new_array << s.reverse} 
+  new_array.join 
 end
   
